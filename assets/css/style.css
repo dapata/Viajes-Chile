@@ -1,0 +1,23 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
+}
+/*Color calipso para los card y footer*/
+.bg-calipso {
+    background-color: #0DCAF0;
+}
+
+/*CSS Navbar*/
+.logo-size {
+    width:30px;
+    color:white;
+}
+
+
+/*CSS Footer*/
+footer div a{
+    text-decoration: none;
+    color: #ffffff;
+}

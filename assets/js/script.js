@@ -1,3 +1,4 @@
+
 $(function () {
 
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
@@ -5,6 +6,11 @@ $(function () {
 
     $('.card-title').click(function () {
         $('.card-text').toggle();
+    });
+
+    // Enviar correo
+    $('#enviarcorreo').on("click", function () {
+        alert("¡El correo fue enviado correctamente!");
     });
 
 });

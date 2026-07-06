@@ -17,7 +17,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -81,21 +80,53 @@
     <main class="container">
 
         <!-- Sección de presentación, utilizando favicons y 3 párrafos (debe desaparecer en tamaños pequeños de pantalla). -->
-        <section id="seccion-quienes-somos">
-            <h2>¿QUIÉNES SOMOS?</h2>
-
+        <section id="seccion-quienes-somos" class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <h2 class="text-center pt-5 pb-1">¿QUIÉNES SOMOS?</h2>
+            <div class="text-info">
+                <hr>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 bg-calipso text-center p-1" >
+                        <i class="fa-solid fa-plane fa-2x py-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Cuadro 1: Lorem ipsum dolor"></i>
+                    </div>
+                    <p class="pt-2 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
+                    Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
+                    Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-grid gap-2">
+                    <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
+                    Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
+                    Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
+                    <div class="col-12 bg-calipso text-center p-1" >
+                        <i class="fa-solid fa-mountain fa-2x py-1 text-center" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Cuadro 2: Lorem ipsum dolor"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 bg-calipso text-center p-1" >
+                        <i class="fa-solid fa-route fa-2x py-1 text-center" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Cuadro 3: Lorem ipsum dolor"></i>
+                    </div>
+                    <p class="pt-2 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente! Alias, nisi vero. Nihil obcaecati blanditiis nobis totam ipsum assumenda unde architecto facere libero vel maiores modi dicta, laudantium commodi!
+                    Explicabo quos fugit reiciendis deserunt dolor, id iusto corrupti voluptatibus consequuntur sapiente quas obcaecati minus repellat quia dicta asperiores laboriosam labore ipsum ipsa. Praesentium nostrum amet corporis perferendis dolores aut.
+                    Corrupti, possimus consectetur nostrum, labore dolores facilis debitis doloribus provident soluta nisi, enim qui! Dolore, voluptas excepturi. Facilis, doloribus itaque. Illum earum vel, magnam blanditiis sed hic labore at quae.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Sección de destacados, que muestre 4 cards (tarjetas) con la imagen e información asociada. -->
         <section id="seccion-destacado">
-            <h2>DESTACADOS</h2>
-
+            <h2 class="text-center pt-5 pb-1">DESTACADOS</h2>
+            <div class="text-info">
+                <hr>
+            </div>
         </section>
 
         <!-- Sección de formulario de contacto. -->
         <section id="seccion-contacto">
-            <h2>CONTACTO</h2>
-
+            <h2 class="text-center pt-5 pb-1">CONTACTO</h2>
+            <div class="text-info">
+                <hr>
+            </div>
         </section>
     </main>
 
@@ -125,6 +156,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

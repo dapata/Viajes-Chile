@@ -3,6 +3,7 @@ body {
     background-color: black;
     font-family: "Raleway", sans-serif;
     scroll-behavior: smooth;
+    --bg-calipso: #0DCAF0;
 }
 /*Color calipso para los card y footer*/
 .bg-calipso {
@@ -13,6 +14,13 @@ body {
 .logo-size {
     width:30px;
     color:white;
+}
+
+/* Secciones */
+/* Quienes somos */
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bg-calipso);
+  --bs-tooltip-color: white;
 }
 
 

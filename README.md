@@ -17,4 +17,4 @@ información asociada.
 
 ## GitHub Page
 
-https://https://dapata.github.io/Viajes-Chile/
+//https://dapata.github.io/Viajes-Chile/
